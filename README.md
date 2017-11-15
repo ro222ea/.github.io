@@ -1,43 +1,30 @@
 # Jekyll Boilerplate
 
-This is a boilerplate to be used for Jekyll-assignments in the course. The virtual machine (hashicorp/precise32) will have the following (relevant) packages installed:
+This is a boilerplate to be used for Jekyll-assignments in the course. Docker is used for serving the Jekyll-site.
 
-From start:
-* node.js (Latest stable)
-* npm
-* git
-* bundler
-
-From npm install:
-* jekyll (via bundler)
-* scss (via bundler)
-
-
-## Install
+## Prerequisites
 Make sure you have the following installed on your system:
-* Virtual Box [https://www.virtualbox.org/](https://www.virtualbox.org/)
-* Vagrant [https://www.vagrantup.com/](https://www.vagrantup.com/)
 
-Now, do:
+- Docker https://www.docker.com/ (Latest "Stable")
+- Node.js / NPM https://nodejs.org/en/
 
-1. Pull (`git pull https://github.com/1dv022/jekyll-boilerplate.git`) into your existing repo. Make sure you are in the root of your repo.
+## Installation
+Pull (`git pull https://github.com/1dv022/jekyll-boilerplate.git`) into your existing repo. Make sure you are in the root of your repo.
 
-2. Start the virtual machine using `vagrant up` (May take 10-30 minutes this first time. Ignore red command line statements and warnings.)
+`npm install`
 
-3. SSH into the machine using  `vagrant ssh` (Now you are connected to the virtual machine. Every command is now executed in the virtual mashine. If you do `exit` you leave the virtual machine and are back on your local computer.)
-
-4. Install bundler with `gem install bundler`. Then install decencies and github-pages `npm install` (if you are on Windows use the command `npm install --no-bin-links`). It will now install some packages and it could take a while.
-
-5. Create an scaffolded jekyll project using `jekyll new src` (`src` to install in the directory (`/vagrant/src`)
+This will fetch the jekyll docker image and create a new Jekyll site in this folder.
 
 ## Daily workflow
-1. Start out by `vagrant up` your machine and ssh into it (`vagrant ssh`)
 
-2. Start watching for changes in the jekyll files. `npm run watch`
+`npm start`
 
-3. Open up a browser and visit the url `http://localhost:4000`
-    To get the css working you have to make a change in the `/src/_config.yml`-file - Change `url: "http://example.com"` to `url: ""` to get the correct path.
+This will start watching for changes in your files and rebuid the site. 
 
-4. Fire up the IDE of your choise (Webstorm, sublime etc.) and open the files in the `src`-folder and start editing your site. When a file is saved the watch-script will auto generate the site. (including sass-files but not true for _config.yml)
+Open up a browser and visit the url [http://localhost:4000](http://localhost:4000)
 
-5. When you are done simply `ctrl+c` to abort the watch, `exit` to  exit the ssh-session and do a `vagrant halt` to stop the machine or `vagrant suspend` to only suspend it.
+Fire up the IDE of your choise (Visual Studio Code etc.) and start editing your site. When a file is saved the watch-script will auto generate the site. (including sass-files but not true for _config.yml)
+
+If you change the _config.yml file, you can rebuild using `npm run update`
+
+When you are done simply ctrl+c to abort the watch.
