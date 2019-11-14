@@ -1,1 +1,9 @@
-sss
+/* TEAM */
+                           
+Your title: Your name Roger Hägerbaum                          
+Site: ro222ea@student.lnu.se                          
+Location: Grillby Enköping
+                            
+/* SITE */                         
+Last update: YYYY/MM/DD                                                   
+Software: Visual Studio code, Jekyll, Docker
