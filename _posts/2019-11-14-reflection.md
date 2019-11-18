@@ -2,7 +2,6 @@
 layout: post
 title:  reflection
 type: blogg poste
-image: ../images/bildxsmall.jpg
 comments: true
 ---
 
