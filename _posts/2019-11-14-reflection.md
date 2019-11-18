@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Refllections"
+title:  reflection
 type: blogg poste
-image: (images/bildxsmall.jpg)
+image: ../images/bildxsmall.jpg
 comments: true
 ---
 
