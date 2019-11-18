@@ -18,7 +18,7 @@ type: Student
 email: ro222ea@student.lnu.se
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://localhost:4000/blogg/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://ro222ea.github.io/blogg/" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username:  ro222ea
 disqus:
