@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  reflection
+title:  Reflection
 type: blogg poste
 comments: true
 ---
@@ -31,3 +31,7 @@ comments: true
   I've configured it with my name, email, location , last updated and software.
 
 *  I used Disqus on my website because it was the recommended examination requirements. And because it was implemented in the Minima theme the         configuration were easy.
+
+* Open Graph is a protocol that help share on social media to display extra information about the web page under the URl.
+
+  I still working on the open graf

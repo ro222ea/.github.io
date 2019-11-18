@@ -14,9 +14,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Welcome examination assignment one
-type: Student
+type: website
 email: ro222ea@student.lnu.se
-image: images/bildxsmall.jpg
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ro222ea.github.io/blogg/" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
