@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  Reflection
-type: blogg poste
 comments: true
 ---
 
