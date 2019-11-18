@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Reflektion"
+title:  "Refllections"
 comments: true
 ---
 

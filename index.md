@@ -4,3 +4,8 @@
 
 layout: default
 ---
+
+![Picture of me](images/bildsmall.jpg)
+
+Welcome to my website for examination assigment one.  
+In the course 1dv022 at Linnaeus University.
