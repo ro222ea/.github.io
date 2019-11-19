@@ -16,6 +16,10 @@
 title: Welcome examination assignment one
 type: website
 email: ro222ea@student.lnu.se
+image:
+  path: images/bildsmall.jpg
+  height: 100
+  width: 100
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ro222ea.github.io/blogg/" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
