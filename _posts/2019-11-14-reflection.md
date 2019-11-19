@@ -2,6 +2,10 @@
 layout: post
 title:  Reflection
 comments: true
+image:
+  path: images/bildsmall.jpg
+  height: 100
+  width: 100
 ---
 
 #### What do you think of pre-compiling your CSS?
