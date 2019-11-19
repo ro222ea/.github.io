@@ -10,6 +10,10 @@ image:
 
 ## Doing the final adjstent
 
-Still to do get the open graph to work
-
-Background colur
+* Select theme- Completed
+* Blogg content- Completed
+* Colors- Completed
+* Site content- Completed
+* Robot.txt- Completed
+* Human.txt- Completed
+* Open graf- working on type

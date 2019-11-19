@@ -37,4 +37,4 @@ image:
 
 * Open Graph is a protocol that help share on social media to display extra information about the web page under the URl.
 
-  I still working on the open graf
+  I have used url, image and title still working on getting the type to work.

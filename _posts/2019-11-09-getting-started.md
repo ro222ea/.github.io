@@ -9,3 +9,13 @@ image:
 ---
 
 ## Started to build the pages and blogg
+
+To do
+
+* Select theme
+* Blogg content
+* Colors
+* Site content
+* Robot.txt
+* Human.txt
+* Open graf
